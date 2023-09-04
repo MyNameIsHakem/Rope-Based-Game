@@ -3,11 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Rope : MonoBehaviour
+public class LineRendrerRope : MonoBehaviour
 {
     public Camera Cam;
     public float RopeSegLenght;
-    public int SegCount;
 
     private LineRenderer RopeRendrer;
     private Vector3[] DefaultArray;
